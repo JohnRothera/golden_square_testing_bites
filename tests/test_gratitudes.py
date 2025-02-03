@@ -7,3 +7,6 @@ def test_format_of_gratitude():
     grateful_guy.add("life")
     grateful_guy.add("laughing")
     assert grateful_guy.format() == "Be grateful for: Love, life, laughing"
+
+    grateful_guy.add("My Wifeee!!")
+    assert grateful_guy.format() == "Be grateful for: Love, life, laughing, My Wifeee!!"
